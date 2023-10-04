@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: #000;
+}
+
+/* BArre de navigation */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+nav h1{
+    font-size: 20px;    
+}
+nav .onglets {
+    display: flex;flex-wrap: wrap;
+}
+nav .onglets p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+nav .onglets input{
+    margin: 8px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;   
+}
+nav .onglets a{
+    text-decoration: none;
+    color: black;
+}
+/*Fin Barre de navigation*/
+
+/*Header*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h1{
+    font-size: 50px;
+    max-width: 500px;
+    text-align: center;  
+}
+header button{
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+/*Fin Header*/
+
+/*Section Principale*/
+.main {
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Toutes les cartes*/
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards .card img{
+    width: 350px;
+    transition: all 0.4s ease;    
+}
+.cards .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards .card .card-body p{
+    margin-top:-10px;
+
+}
+.cards2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards2 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards2 .card img{
+    width: 350px;
+    transition: all 0.4s ease;     
+}
+.cards2 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards2 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards2 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards2 .card .card-body p{
+    margin-top:-10px;
+
+}
+
+.cards3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards3 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards3 .card img{
+    width: 350px;
+    transition: all 0.4s ease;     
+}
+.cards3 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards3 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards3 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards3 .card .card-body p{
+    margin-top:-10px;
+
+}
+.cards4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards4 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards4 .card img{
+    width: 350px;
+    transition: all 0.4s ease;    
+}
+.cards4 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards4 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards4 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards4 .card .card-body p{
+    margin-top:-10px;
+
+}
+.cards5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards5 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards5 .card img{
+    width: 350px;
+    transition: all 0.4s ease;    
+}
+.cards5 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards5 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards5 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards5 .card .card-body p{
+    margin-top:-10px;
+
+}
+.cards6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards6 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards6 .card img{
+    width: 350px;
+    transition: all 0.4s ease;    
+}
+.cards6 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards6 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards6 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards6 .card .card-body p{
+    margin-top:-10px;
+
+}
+.cards7{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards7 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards7 .card img{
+    width: 350px;
+    transition: all 0.4s ease;    
+}
+.cards7 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards7 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards7 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards7 .card .card-body p{
+    margin-top:-10px;
+
+}
+.cards8{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards8 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards8 .card img{
+    width: 350px;
+    transition: all 0.4s ease;     
+}
+.cards8 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards8 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards8 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards8 .card .card-body p{
+    margin-top:-10px;
+
+}
+.cards9{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards9 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards9 .card img{
+    width: 350px;
+    transition: all 0.4s ease;     
+}
+.cards9 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards9 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards9 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards9 .card .card-body p{
+    margin-top:-10px;
+
+}
+.cards10{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards10 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards10 .card img{
+    width: 350px;
+    transition: all 0.4s ease;     
+}
+.cards10 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards10 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards10 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards10 .card .card-body p{
+    margin-top:-10px;
+
+}
+.cards11{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards11 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards11 .card img{
+    width: 350px;
+    transition: all 0.4s ease;     
+}
+.cards11 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards11 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards11 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards11 .card .card-body p{
+    margin-top:-10px;
+
+}
+.cards12{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards12 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards12 .card img{
+    width: 350px;
+    transition: all 0.4s ease;     
+}
+.cards12 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards12 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards12 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards12 .card .card-body p{
+    margin-top:-10px;
+
+}
+.cards13{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards13 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards13 .card img{
+    width: 350px;
+    transition: all 0.4s ease;     
+}
+.cards13 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards13 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards13 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards13 .card .card-body p{
+    margin-top:-10px;
+}
+.cards14{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards14 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards14 .card img{
+    width: 350px;
+    transition: all 0.4s ease;     
+}
+.cards14 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards14 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards14 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards14 .card .card-body p{
+    margin-top:-10px;
+
+}
+.cards15{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards15 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards15 .card img{
+    width: 350px;
+    transition: all 0.4s ease;     
+}
+.cards15 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards15 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards15 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards15 .card .card-body p{
+    margin-top:-10px;
+
+}
+.cards16{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards16 .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards16 .card img{
+    width: 350px;
+    transition: all 0.4s ease;     
+}
+.cards16 .card .imagebox {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+.cards16 .card .imagebox img:hover{
+    transform: scale(1.1);
+}
+.cards16 .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards16 .card .card-body p{
+    margin-top:-10px;
+
+}
+
+/*Fin toutes les cartes*/
+
+/*Fin Section Principale*/
+
+/*Pagination*/
+
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+/*Fin Pagination*/
+
+/*Pied de page*/
+
+footer{
+    margin-top: 100px;
+    background-color:#000;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+footer .social-media{
+    display: flex;
+}
+footer .social-media p{
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+    cursor: pointer;
+}
+/*Fin Pied de page */
+/*Pour Mobile*/
+@media screen and (max-width: 640px) {
+    nav .onglets .link, nav h1{
+        display: none;
+    }
+    .cards .card img{
+        width: 300px;
+    }
+}
+/*Fn Pour Mobile*/
