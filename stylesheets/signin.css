@@ -1,13 +1,13 @@
 html,
 body {
-  background-image: url("../images/muscu.jpeg");
+  background-image: url("../images/coureurs.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
 }
 
 .signin {
-  margin-top: 50%;
+  padding-top: 10%;
 }
 
 .form-signin {
@@ -43,4 +43,15 @@ button {
 
 button:hover {
   background-color: #C14314;   
+}
+
+.titleform {
+  color: black;
+}
+
+img {
+  padding-top: 10%;
+  height: 70%;
+  width: 70%;
+  padding-left: 25%;
 }
