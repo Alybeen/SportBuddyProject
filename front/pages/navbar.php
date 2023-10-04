@@ -5,23 +5,23 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <a class="navbar-brand" href="./index.php">
+          <img src="../images/logo.svg" width="20%">
+        </a>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li><a class="navbar-brand" href="./index.php">
-          <img src="../images/logo_sp.svg" alt="SportBuddy" width="20%">
-        </a></li>
           <li class="nav-item ">
-            <a class="nav-link active" style="color:white;" aria-current="page" href="./contact.html">Contact</a>
+            <a class="nav-link active" style="color:white;" aria-current="page" href="./presentation.php">Présentation</a>
           </li>
-          <li cass="nav-item dropdown">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" style="color:white;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Disciplines
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Footing</a></li>
-              <li><a class="dropdown-item" href="#">Callisthénie</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Toutes</a></li>
-            </ul>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Footing</a></li>
+                <li><a class="dropdown-item" href="#">Callisthénie</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Toutes</a></li>
+              </ul>
           </li>
         </ul>
         <form class="d-flex" role="search">
