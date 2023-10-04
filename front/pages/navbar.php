@@ -6,21 +6,24 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <a class="navbar-brand" href="./index.php">
-          <img src="../images/logo.svg" width="20%">
+          <img src="../images/logo-SB.png">
         </a>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item ">
             <a class="nav-link active" style="color:white;" aria-current="page" href="./presentation.php">Présentation</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" style="color:white;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Disciplines
+            <a class="create-link nav-link dropdown-toggle" style="color:white;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Je choisis ma discipline
             </a>
+            <!-- todo: get catgories list from database -->
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Footing</a></li>
+                <li><a class="dropdown-item" href="#">Musculation</a></li>
+                <li><a class="dropdown-item" href="#">Surf</a></li>
                 <li><a class="dropdown-item" href="#">Callisthénie</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Toutes</a></li>
+                <li><a class="dropdown-item" href="#">Peu importe</a></li>
               </ul>
           </li>
         </ul>
@@ -33,9 +36,8 @@
             </button>
           </div>
         </form>
-        <div class="p-4"><a class="nav-link" style="color:white;" href="#">Je souhaite proposer une activité</a></div>
+        <div class="p-4"><a class="nav-link" style="color:white;" href="./create.php">Je souhaite proposer une activité</a></div>
         <div><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><img src="../images/icon_user.svg" alt="icone utilisateur" height="100%"></a></div>
-
       </div>
     </div>
   </nav>
