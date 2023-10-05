@@ -28,8 +28,10 @@ try {
 }
 ?>
 
-<h1>Ajouter un nouvel utilisateurx</h1>
-<form method="POST">
+<main class="form-signin w-50 m-auto">
+    <img class="image" src="../images/logo.svg">
+    <form method="POST">
+    <h1 class="titleform h3 mb-3 fw-normal">Inscrivez-vous !</h1>
     <div class="form-floating">
         <input type="text" class="form-control" id="prenom" name="prenom" required>
         <label for="prenom">Prénom</label>
@@ -56,4 +58,5 @@ try {
     </div>
 
     <button class="button w-100 py-2" type="submit">Sign in</button>
-</form>
+    </form>
+</main>

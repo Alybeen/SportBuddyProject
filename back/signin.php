@@ -45,8 +45,10 @@ try {
 }
 ?>
 
-<h1>Authentification</h1>
+<main class="form-signin w-50 m-auto">
+<img class="image" src="../images/logo.svg">
 <form method="POST">
+<h1 class="titleform h3 mb-3 fw-normal">Connectez-vous !</h1>
     <div class="form-floating">
         <input type="email" class="form-control" id="email" name="email" required>
         <label for="email">Email</label>
@@ -58,4 +60,5 @@ try {
     </div>
 
     <button class="button w-100 py-2" type="submit">Connexion</button>
-</form>
+    </form>
+</main>
