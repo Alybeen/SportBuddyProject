@@ -23,7 +23,7 @@
           </div>
         </form>
         <div class="p-4"><a class="nav-link" style="color:white;" href="./create.php">Je souhaite proposer une activité</a></div>
-        <div><a href="./signin.html" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><img src="../images/icon_user.svg" alt="icone utilisateur" height="100%"></a></div>
+        <div><a href="./signin.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><img src="../images/icon_user.svg" alt="icone utilisateur" height="100%"></a></div>
       </div>
     </div>
   </nav>

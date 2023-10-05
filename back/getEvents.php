@@ -12,7 +12,8 @@ try {
 
     // Préparation de la requête SQL pour récupérer toutes les informations de la table "Event"
     $selectData = $pdo->prepare("SELECT e.*, c.cat_picture 
-    FROM Events e, Catégorie c");
+    FROM Events e, Catégorie c
+    where e.id_cat = c.id_categorie order by e.id_event desc");
 
     $selectData->execute();
 
@@ -33,11 +34,6 @@ try {
         // Ajout de l'événement au tableau $events avec la clé "event-$row[id_event]"
         $events["event-$row[id_event]"] = $event;
     }
-
-    // Affichage du tableau $events
-    echo "<pre>";
-    var_export($events);
-    echo "</pre>";
 } catch (PDOException $e) {
     echo 'Erreur : ' . $e->getMessage();
 }

@@ -11,59 +11,27 @@
 </head>
 <body>
     <?php include("navbar.php"); ?>
-    <?php $events = [
-        "cat-1" => (object) ["cat_img"=>"cat_footing.jpg",
-    "title"=> "icon",
-    "date" => "01/10/23",
-    "time" => "20H00",
-    "event_creator" => "Alan",
-    "localisation" => "Parc Montcalm, Montpellier"],
-        "cat-2" => (object) ["cat_img"=>"cat_footing.jpg",
-        "title"=> "icon",
-        "date" => "01/10/23",
-        "time" => "20H30",
-        "event_creator" => "Alan",
-        "localisation" => "Zoo du Lunaret, Montpellier",
-    ],
-    "cat-3" => (object) ["cat_img"=>"cat_footing.jpg",
-        "title"=> "icon",
-        "date" => "01/10/23",
-        "time" => "20H30",
-        "event_creator" => "Alan",
-        "localisation" => "Zoo du Lunaret, Montpellier",
-    ],
-    "cat-4" => (object) ["cat_img"=>"cat_footing.jpg",
-            "title"=> "icon",
-            "date" => "01/10/23",
-            "time" => "20H30",
-            "event_creator" => "Alan",
-            "localisation" => "Zoo du Lunaret, Montpellier",
-    ],
-    
-];?>
+    <?php include("../../back/getEvents.php")?>
 
 <main>
     <div class="container">
     <div class="container-fluid mt-4">
             <!-- todo: get categories list from database -->
             <ul class="d-flex">
-                <li><a class="categories-items index-list" href="#"><img src="../images/icone_course.svg" alt="illustration musculation"></a></li>
-                <li><a class="categories-items index-list" href="#"><img src="../images/icone_course.svg" alt="illustration musculation"></a></li>
-                <li><a class="categories-items index-list" href="#"><img src="../images/icone_course.svg" alt="illustration musculation"></a></li>
-                <li><a class="categories-items index-list" href="#"><img src="../images/icone_course.svg" alt="illustration musculation"></a></li>
-                <li><a class="categories-items index-list" href="#"><img src="../images/icone_course.svg" alt="illustration musculation"></a></li>
-                <li><a class="categories-items index-list" href="#"><img src="../images/icone_course.svg" alt="illustration musculation"></a></li>
-                <li><a class="categories-items index-list" href="#"><img src="../images/icone_course.svg" alt="illustration musculation"></a></li>
-                <li><a class="categories-items index-list" href="#"><img src="../images/icone_course.svg" alt="illustration musculation"></a></li>
-                <li><a class="categories-items index-list" href="#"><img src="../images/icone_course.svg" alt="illustration musculation"></a></li>
-                <li><a class="categories-items index-list" href="#"><img src="../images/icone_course.svg" alt="illustration musculation"></a></li>
-                <li><a class="categories-items index-list" href="#"><img src="../images/icone_course.svg" alt="illustration musculation"></a></li>
+                <li class="flex-fill"><a class="categories-items index-list" href="#"><img src="../images/icone_course.svg" alt="illustration course"></a></li>
+                <li class="flex-fill"><a class="categories-items index-list" href="#"><img src="../images/icone_callisthenie.svg" alt="illustration callisthénie"></a></li>
+                <li class="flex-fill"><a class="categories-items index-list" href="#"><img src="../images/icone_houlahoop.svg" alt="illustration musculation"></a></li>
+                <li class="flex-fill"><a class="categories-items index-list" href="#"><img src="../images/icone_musculation.svg" alt="illustration musculation"></a></li>
+                <li class="flex-fill"><a class="categories-items index-list" href="#"><img src="../images/icone_natation.svg" alt="illustration musculation"></a></li>
+                <li class="flex-fill"><a class="categories-items index-list" href="#"><img src="../images/icone_streetworkout.svg" alt="illustration street"></a></li>
+                <li class="flex-fill"><a class="categories-items index-list" href="#"><img src="../images/icone_yoga.svg" alt="illustration yoga"></a></li>
+                <li class="flex-fill"><a class="categories-items index-list" href="#"><img src="../images/icone_velo.svg" alt="illustration musculation"></a></li>
             </ul>
     </div>     
             <div class="row d-flex mt-md-5 align-items-sm-stretch flex-wrap my-3">
                 <?php foreach ($events as $e):?>
                         <div class="card p-0 m-3" style="width: 18rem;">
-                            <img src="../images/cat_footing.jpg" class="card-img-top" alt="photo de footing">
+                            <img src="../images/<?= $e->cat_img?>" class="card-img-top" alt="photo de footing">
                             <div class="card-body">
                             <span class="d-flex"><a href="#" class="card-link" style="color:#FD5700";>
                             <small>Proposé par <?=$e->event_creator?></small></a></span>
