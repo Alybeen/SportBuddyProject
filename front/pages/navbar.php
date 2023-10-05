@@ -16,7 +16,7 @@
             <a class="create-link nav-link dropdown-toggle" style="color:white;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Je choisis ma discipline
             </a>
-            <!-- todo: get catgories list from database -->
+            <!-- todo: get categories list from database -->
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Footing</a></li>
                 <li><a class="dropdown-item" href="#">Musculation</a></li>

@@ -7,7 +7,7 @@ body {
 }
 
 .signin {
-  margin-top: 50%;
+  margin-top: 15%;
 }
 
 .form-signin {
@@ -47,4 +47,12 @@ button:hover {
 
 .titleform {
   color: black;
+  text-align: center;
+}
+
+img {
+  padding-top: 10%;
+  height: 70%;
+  width: 70%;
+  padding-left: 25%;
 }
