@@ -12,20 +12,6 @@
           <li class="nav-item ">
             <a class="nav-link active" style="color:white;" aria-current="page" href="./presentation.php">Présentation</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="create-link nav-link dropdown-toggle" style="color:white;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Je choisis ma discipline
-            </a>
-            <!-- todo: get categories list from database -->
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Footing</a></li>
-                <li><a class="dropdown-item" href="#">Musculation</a></li>
-                <li><a class="dropdown-item" href="#">Surf</a></li>
-                <li><a class="dropdown-item" href="#">Callisthénie</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Peu importe</a></li>
-              </ul>
-          </li>
         </ul>
         <form class="d-flex" role="search">
           <div class="input-group input-group-md">
