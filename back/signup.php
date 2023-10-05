@@ -21,15 +21,17 @@ try {
 
         // Exécution de la requête
         $insertQuery->execute(array(':nom' => $nom, ':prenom' => $prenom, ':ville' => $ville, ':email' => $email, ':mdp' => $mdp));
-        echo 'Utilisateur inséré avec succès !';
+        // echo 'Utilisateur inséré avec succès !';
+        header("Location: ../../front/pages/index.php");
     }
 } catch (PDOException $e) {
     echo 'Erreur de connexion à la base de données : ' . $e->getMessage();
 }
 ?>
 
-<h1>Ajouter un nouvel utilisateurx</h1>
-<form method="POST">
+    <img class="image" src="../images/logo.svg">
+    <form method="POST" class="signin">
+    <h1 class="titleform h3 mb-3 fw-normal">Inscrivez-vous !</h1>
     <div class="form-floating">
         <input type="text" class="form-control" id="prenom" name="prenom" required>
         <label for="prenom">Prénom</label>
@@ -56,4 +58,4 @@ try {
     </div>
 
     <button class="button w-100 py-2" type="submit">Sign in</button>
-</form>
+    </form>

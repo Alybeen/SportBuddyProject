@@ -11,29 +11,16 @@
 
     
     <link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="../stylesheets/signin.css" type="text/css">
+    <link rel="stylesheet" href="../stylesheets/signup.css" type="text/css">
     
-
+    
 <main class="form-signin w-50 m-auto">
-  <img class="image" src="../images/logo.svg">
-  <form class="signin">
-    <h1 class="titleform h3 mb-3 fw-normal">Connectez-vous !</h1>
-
-    <div class="form-floating">
-      <input type="login" class="form-control" id="floatingInput">
-      <label for="floatingInput">Mail</label>
-    </div>
-    <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword">
-      <label for="floatingPassword">Mot de passe</label>
-    </div>
-
-    <div class="form-check text-start my-3">
-    </div>
-    <button class="button w-100 py-2" type="submit" href="contact.html">Sign in</button>
-  </form>
+<?php
+  include("../../back/signup.php");
+  ?>
 </main>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
 
     </body>
 </html>
