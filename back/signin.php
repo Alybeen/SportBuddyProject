@@ -35,7 +35,7 @@ try {
 
             $_SESSION['user_connected'] = true;
 
-            echo 'User connecté avec succès.';
+            header("Location: ../../front/pages/index.php");
         } else {
             echo 'Identifiants incorrects. Veuillez réessayer.';
         }
@@ -45,9 +45,9 @@ try {
 }
 ?>
 
-<main class="form-signin w-50 m-auto">
+
 <img class="image" src="../images/logo.svg">
-<form method="POST">
+<form method="POST" class="signin">
 <h1 class="titleform h3 mb-3 fw-normal">Connectez-vous !</h1>
     <div class="form-floating">
         <input type="email" class="form-control" id="email" name="email" required>
@@ -61,4 +61,3 @@ try {
 
     <button class="button w-100 py-2" type="submit">Connexion</button>
     </form>
-</main>

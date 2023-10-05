@@ -15,12 +15,12 @@
     
     
 <main class="form-signin w-50 m-auto">
-  <img class="image" src="../images/logo.svg">
-  <?php
-  include("./back/signup.php");
+<?php
+  include("../../back/signup.php");
   ?>
 </main>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
 
     </body>
 </html>
