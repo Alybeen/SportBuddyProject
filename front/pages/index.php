@@ -26,6 +26,7 @@
                 <li class="flex-fill"><a class="categories-items index-list" href="#"><img src="../images/icone_streetworkout.svg" alt="illustration street"></a></li>
                 <li class="flex-fill"><a class="categories-items index-list" href="#"><img src="../images/icone_yoga.svg" alt="illustration yoga"></a></li>
                 <li class="flex-fill"><a class="categories-items index-list" href="#"><img src="../images/icone_velo.svg" alt="illustration musculation"></a></li>
+                <li class="flex-fill">>
             </ul>
     </div>     
             <div class="row d-flex mt-md-5 align-items-sm-stretch flex-wrap my-3">
